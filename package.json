@@ -1,0 +1,19 @@
+{
+  "name": "jamstack-blog-starter-main",
+  "version": "1.0.0",
+  "description": "We'll be taking a static HTML/CSS project, hooking it up with Eleventy (static site generator), and then using GitHub to get it up onto Netlify, and finally integrated Netlify CMS!",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}
